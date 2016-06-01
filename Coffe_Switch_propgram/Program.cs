@@ -12,7 +12,6 @@ namespace Coffe_Switch_propgram
         {
             int TotalCofeeCost = 0;
 
-            //This label will help initialize it
             Choices:
             Console.WriteLine("Please Select your coffee size :  1 - Small, 2 - Medium, 3 - Large");
             int UserChoice = int.Parse(Console.ReadLine());
